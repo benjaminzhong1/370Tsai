@@ -1,1 +1,1 @@
-"# 370 with Tsai, Benjamin, Alexa, and Bernardo" 
+"Benjamin, Alexa, and Bernardo's repo for CSCI 370 with Tsai" 
