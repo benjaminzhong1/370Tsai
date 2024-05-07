@@ -41,13 +41,4 @@ public class DataLoader {
     public List<Integer> getLabels() {
         return labels;
     }
-
-    // Main method for testing
-    public static void main(String[] args) throws IOException {
-        Dataset dataset = new Dataset();
-        dataset.loadCSV("data.csv");
-        List<double[]> instances = dataset.getInstances();
-        List<Integer> labels = dataset.getLabels();
-        // Do something with the dataset...
-    }
 }

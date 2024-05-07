@@ -59,20 +59,4 @@ public class DecisionTree {
         return sb.toString();
     }
 
-    // Main method for testing
-    public static void main(String[] args) {
-        // Example usage
-        DecisionNode decisionNode = new DecisionNode(0, 5.0); // Example decision node
-        TreeNode leftChild = new TreeNode(1); // Example left child (leaf node)
-        TreeNode rightChild = new TreeNode(0); // Example right child (leaf node)
-        decisionNode.setLeftChild(leftChild);
-        decisionNode.setRightChild(rightChild);
-
-        DecisionTree tree = new DecisionTree(new TreeNode(decisionNode));
-        tree.printTree();
-
-        double[] instance = {4.0}; // Example instance
-        int predictedClass = tree.predict(instance);
-        System.out.println("Predicted Class: " + predictedClass);
-    }
 }

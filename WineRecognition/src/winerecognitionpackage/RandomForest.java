@@ -48,17 +48,4 @@ public class RandomForest {
         }
         return bootstrapSample;
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        // Example usage
-        RandomForest forest = new RandomForest(10); // Create a random forest with 10 trees
-        List<double[]> instances = new ArrayList<>(); // Example instances
-        List<Integer> labels = new ArrayList<>(); // Example labels
-        // Train the random forest
-        forest.train(instances, labels, 5, 10);
-        // Make predictions
-        List<double[]> testInstances = new ArrayList<>(); // Test instances
-        List<Integer> predictions = forest.predict(testInstances);
-    }
 }
