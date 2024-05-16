@@ -23,5 +23,5 @@ This system is created in Java as such it'll either be run through Eclipse IDE o
 
 ## Resources
 
-- Course: CSCI 370 Spring 2024
+- Course: CSCI 370
 - Authors: Alexa Amaya, Benjamin Zhong, Bernado Antonio Manto
